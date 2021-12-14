@@ -1,7 +1,6 @@
+setwd("/home/matheus/Code/fac/prob/trab")
 source('scripts/lib/tab_freq.R')
 source('scripts/lib/tab_intv.R')
-
-setwd("/home/matheus/Code/fac/prob/trab")
 
 aoe4_data <- read.table(file="data/aoe4.txt", header = TRUE, colClasses=c("numeric", "factor", rep("numeric", 3)))
 
